@@ -1,0 +1,15 @@
+D:\C-Sharp\MegaDesk-Montoya\bin\Debug\MegaDesk-Montoya.exe.config
+D:\C-Sharp\MegaDesk-Montoya\bin\Debug\MegaDesk-Montoya.exe
+D:\C-Sharp\MegaDesk-Montoya\bin\Debug\MegaDesk-Montoya.pdb
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk-Montoya.csproj.AssemblyReference.cache
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk-Montoya.csproj.SuggestedBindingRedirects.cache
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk_Montoya.Properties.Resources.resources
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk-Montoya.csproj.GenerateResource.cache
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk-Montoya.csproj.CoreCompileInputs.cache
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk-Montoya.exe
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk-Montoya.pdb
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk_Montoya.MainMenu.resources
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk_Montoya.AddQuote.resources
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk_Montoya.DisplayQuote.resources
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk_Montoya.SearchQuotes.resources
+D:\C-Sharp\MegaDesk-Montoya\obj\Debug\MegaDesk_Montoya.ViewAllQuotes.resources
