@@ -12,7 +12,7 @@ namespace MegaDesk_Montoya
         private static int baseCost = 200;
         private static int sqInCostOverThreshhold = 1;
         private static int sqInCostThreshold = 1000;
-        private static int[,] rushOrderPrices = [,];
+        private static int[,] rushOrderPrices = new int[0,0];
         
         public static double CalculatePrice(MaterialType material, double surfaceArea, int drawerCount, int rushDays)
         {

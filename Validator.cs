@@ -17,7 +17,7 @@ namespace MegaDesk_Montoya
         static public int DRAWERS_MIN = 0;
         static public int DRAWERS_MAX = 7;
 
-        public bool ValidateQuantity(string quantityName, double quantityValue) 
+        public static bool ValidateQuantity(string quantityName, double quantityValue) 
         {
             return false;
         }

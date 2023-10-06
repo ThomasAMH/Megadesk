@@ -42,11 +42,11 @@ namespace MegaDesk_Montoya
             try { _ = double.Parse(WidthTextbox.Text); }
             catch
             {
-                WidthLabel.BackColor= Color.Red;
+                WidthLabel.BackColor = Color.Red;
                 DiplayQuoteButton.Enabled = false;
                 return;
             }
-            if(double.Parse(WidthTextbox.Text) < Validator.WIDTH_MIN || double.Parse(WidthTextbox.Text) > Validator.WIDTH_MAX)
+            if (double.Parse(WidthTextbox.Text) < Validator.WIDTH_MIN || double.Parse(WidthTextbox.Text) > Validator.WIDTH_MAX)
             {
                 WidthLabel.BackColor = Color.Red;
                 DiplayQuoteButton.Enabled = false;
@@ -64,7 +64,7 @@ namespace MegaDesk_Montoya
         private void DepthTextbox_KeyUp(object sender, KeyEventArgs e)
         {
             //Validate the depth text box's input
-            if(char.IsControl((char)e.KeyValue))
+            if (char.IsControl((char)e.KeyValue))
             {
                 DepthLabel.BackColor = Color.Red;
                 DiplayQuoteButton.Enabled = false;
@@ -97,12 +97,12 @@ namespace MegaDesk_Montoya
             userInvoiceNum = InvoiceNumTextbox.Text;
             userCustomerName = BillToNameTextbox.Text;
             userNotes = NotesTextbox.Text;
-            price = CalculatePrice();
+            //price = CalculatePrice();
 
             DisplayQuote DisplayQuoteView = new DisplayQuote();
             DisplayQuoteView.Tag = this;
             DisplayQuoteView.Show(this);
             Hide();
         }
-    
+    }
 }

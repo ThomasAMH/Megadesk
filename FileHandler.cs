@@ -8,8 +8,8 @@ namespace MegaDesk_Montoya
 {
     static internal class FileHandler
     {
-        string quotesPath = "";
-        string validatorPath= "";
-        string pricesPath= "";
+        private static string quotesPath = "";
+        private static string validatorPath= "";
+        private static string pricesPath= "";
     }
 }

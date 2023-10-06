@@ -70,6 +70,7 @@ namespace MegaDesk_Montoya
 
             return price;
         }
+        public void AddDesk() { }
     }
 }
-}
+
