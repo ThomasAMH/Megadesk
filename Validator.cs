@@ -17,6 +17,10 @@ namespace MegaDesk_Montoya
         static public int DRAWERS_MIN = 0;
         static public int DRAWERS_MAX = 7;
 
-        static public int[] RUSH_ORDER_DAYS = { 3, 5, 7 };
+        public bool ValidateQuantity(string quantityName, double quantityValue) 
+        {
+            return false;
+        }
+
     }
 }

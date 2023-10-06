@@ -52,6 +52,8 @@
     <Compile Include="AddQuote.Designer.cs">
       <DependentUpon>AddQuote.cs</DependentUpon>
     </Compile>
+    <Compile Include="FileHandler.cs" />
+    <Compile Include="Prices.cs" />
     <Compile Include="ViewAllQuotes.cs">
       <SubType>Form</SubType>
     </Compile>
