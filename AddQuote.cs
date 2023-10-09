@@ -14,11 +14,11 @@ namespace MegaDesk_Montoya
 {
     public partial class AddQuote : Form
     {
-        public static double userHight;
+        public static double userHeight;
         public static double userWidth;
         public static double userDepth;
-        public static double userDrawers;
-        public static string userMaterial;
+        public static int userDrawers;
+        public static MaterialType userMaterial;
         public static int userRushOrderDays;
         public static string userInvoiceNum;
         public static string userCustomerName;
@@ -88,16 +88,34 @@ namespace MegaDesk_Montoya
 
         private void DiplayQuoteButton_Click(object sender, EventArgs e)
         {
-            userHight = double.Parse(HeightTextBox.Text);
-            userWidth = double.Parse(WidthTextbox.Text); ;
-            userDepth = double.Parse(DepthTextbox.Text); ;
-            userDrawers = int.Parse(DrawersCombobox.Text); ;
-            userMaterial = MaterialCombobox.Text;
-            userRushOrderDays = int.Parse(HeightTextBox.Text); ;
+            userHeight = double.Parse(HeightTextBox.Text);
+            userWidth = double.Parse(WidthTextbox.Text);
+            userDepth = double.Parse(DepthTextbox.Text);
+            userDrawers = int.Parse(DrawersCombobox.Text);
+            userRushOrderDays = int.Parse(RushOrderDaysCombobox.Text);
             userInvoiceNum = InvoiceNumTextbox.Text;
             userCustomerName = BillToNameTextbox.Text;
             userNotes = NotesTextbox.Text;
-            //price = CalculatePrice();
+            switch(MaterialCombobox.Text)
+            {
+                case "Laminate":
+                    userMaterial = MaterialType.Laminate;
+                    break;
+                case "Oak":
+                    userMaterial = MaterialType.Oak;
+                    break;
+                case "Rosewood":
+                    userMaterial = MaterialType.Rosewood;
+                    break;
+                case "Veneer":
+                    userMaterial = MaterialType.Veneer;
+                    break;
+                case "Pine":
+                    userMaterial = MaterialType.Pine;
+                    break;
+            }
+
+            price = Prices.CalculatePrice(userMaterial, userHeight * userDepth, userDrawers, userRushOrderDays);
 
             DisplayQuote DisplayQuoteView = new DisplayQuote();
             DisplayQuoteView.Tag = this;
