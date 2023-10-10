@@ -12,16 +12,18 @@ namespace MegaDesk_Montoya
     {
         private static string directoryString = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
         private static string quotesPath = directoryString + "\\Megadesk\\data\\quotes.json";
-        //private static string validatorPath= directoryString + "\\Megadesk\\data\\";
         private static string pricesPath= directoryString + "\\Megadesk\\data\\rushOrderPrices.txt";
 
         public static void WriteQuoteToFile(DeskQuote quoteToWrite) 
         {
-            string dataToWrite = JsonConvert.SerializeObject(quoteToWrite, Formatting.Indented);
+            var readQuotes = GetQuotes() ?? new List<DeskQuote>();
 
-            using (StreamWriter writer = File.AppendText(quotesPath))
+            readQuotes.Add(quoteToWrite);
+            string quotesToWrite = JsonConvert.SerializeObject(readQuotes);
+
+            using (StreamWriter writer = new StreamWriter(quotesPath, false))
             {
-                writer.WriteLine(dataToWrite);
+                writer.Write(quotesToWrite);
             }
         }
         public static int[,] GetRushOrderPrices()
@@ -39,7 +41,13 @@ namespace MegaDesk_Montoya
                 return returnArray;
             }
         }
-        public static void GetQuotes() { }
+        public static List<DeskQuote> GetQuotes() 
+        {
+            string quotesJson = File.ReadAllText(quotesPath);
+            List<DeskQuote> readQuotes = JsonConvert.DeserializeObject<List<DeskQuote>>(quotesJson);
+
+            return readQuotes;
+        }
 
         public static void GetValidationItems() { }
 

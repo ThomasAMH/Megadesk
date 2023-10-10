@@ -8,6 +8,12 @@ namespace MegaDesk_Montoya
 {
     internal static class LoadedQuotes
     {
-        public static List<DeskQuote> Quotes = new List<DeskQuote>();
+        public static List<DeskQuote> Quotes = preaareQuotesList();
+        private static List<DeskQuote> preaareQuotesList()
+        {
+            List<DeskQuote> quotes = new List<DeskQuote>();
+            quotes.AddRange(FileHandler.GetQuotes());
+            return quotes;
+        }
     }
 }
