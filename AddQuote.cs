@@ -9,6 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace MegaDesk_Montoya
 {
@@ -20,7 +21,7 @@ namespace MegaDesk_Montoya
         public static int userDrawers;
         public static MaterialType userMaterial;
         public static int userRushOrderDays;
-        public static string userInvoiceNum;
+        public static string userDate;
         public static string userCustomerName;
         public static string userNotes;
         public static double price;
@@ -93,7 +94,7 @@ namespace MegaDesk_Montoya
             userDepth = double.Parse(DepthTextbox.Text);
             userDrawers = int.Parse(DrawersCombobox.Text);
             userRushOrderDays = int.Parse(RushOrderDaysCombobox.Text);
-            userInvoiceNum = InvoiceNumTextbox.Text;
+            userDate = DateTextBox.Text;
             userCustomerName = BillToNameTextbox.Text;
             userNotes = NotesTextbox.Text;
             switch(MaterialCombobox.Text)

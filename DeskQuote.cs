@@ -9,6 +9,7 @@ namespace MegaDesk_Montoya
     internal class DeskQuote
     {
         public string customerName;
+        public string invoiceDate;
         public Desk quoteDesk;
         public double quoteAmount = 0.0F;
         public int rushOrderDays = 0;

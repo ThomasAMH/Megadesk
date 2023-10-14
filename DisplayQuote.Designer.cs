@@ -49,7 +49,7 @@
             this.Drawers = new System.Windows.Forms.Label();
             this.Material = new System.Windows.Forms.Label();
             this.RushDays = new System.Windows.Forms.Label();
-            this.InvoiceNumber = new System.Windows.Forms.Label();
+            this.UserDate = new System.Windows.Forms.Label();
             this.Notes = new System.Windows.Forms.Label();
             this.SubtotalAmount = new System.Windows.Forms.Label();
             this.validatorBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -92,9 +92,9 @@
             this.InvoiceNumberLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InvoiceNumberLabel.Location = new System.Drawing.Point(413, 102);
             this.InvoiceNumberLabel.Name = "InvoiceNumberLabel";
-            this.InvoiceNumberLabel.Size = new System.Drawing.Size(171, 23);
+            this.InvoiceNumberLabel.Size = new System.Drawing.Size(62, 23);
             this.InvoiceNumberLabel.TabIndex = 38;
-            this.InvoiceNumberLabel.Text = "Invoice Number:";
+            this.InvoiceNumberLabel.Text = "Date:";
             // 
             // RushOrderLabel
             // 
@@ -259,15 +259,15 @@
             this.RushDays.TabIndex = 57;
             this.RushDays.Text = "[rush days here]";
             // 
-            // InvoiceNumber
+            // UserDate
             // 
-            this.InvoiceNumber.AutoSize = true;
-            this.InvoiceNumber.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InvoiceNumber.Location = new System.Drawing.Point(590, 102);
-            this.InvoiceNumber.Name = "InvoiceNumber";
-            this.InvoiceNumber.Size = new System.Drawing.Size(228, 23);
-            this.InvoiceNumber.TabIndex = 59;
-            this.InvoiceNumber.Text = "[invoice number here]";
+            this.UserDate.AutoSize = true;
+            this.UserDate.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserDate.Location = new System.Drawing.Point(481, 102);
+            this.UserDate.Name = "UserDate";
+            this.UserDate.Size = new System.Drawing.Size(0, 23);
+            this.UserDate.TabIndex = 59;
+            this.UserDate.Click += new System.EventHandler(this.InvoiceNumber_Click);
             // 
             // Notes
             // 
@@ -300,7 +300,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.SubtotalAmount);
             this.Controls.Add(this.Notes);
-            this.Controls.Add(this.InvoiceNumber);
+            this.Controls.Add(this.UserDate);
             this.Controls.Add(this.RushDays);
             this.Controls.Add(this.Material);
             this.Controls.Add(this.Drawers);
@@ -351,7 +351,7 @@
         private System.Windows.Forms.Label Drawers;
         private System.Windows.Forms.Label Material;
         private System.Windows.Forms.Label RushDays;
-        private System.Windows.Forms.Label InvoiceNumber;
+        private System.Windows.Forms.Label UserDate;
         private System.Windows.Forms.Label Notes;
         private System.Windows.Forms.Label SubtotalAmount;
     }

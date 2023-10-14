@@ -46,6 +46,7 @@ namespace MegaDesk_Montoya
 
             preparedDeskQuote.rushOrderDays = AddQuote.userRushOrderDays;
             preparedDeskQuote.quoteAmount = AddQuote.price;
+            preparedDeskQuote.invoiceDate = AddQuote.userDate;
 
             //
             //LoadedQuotes.Quotes.Add(preparedDeskQuote);
@@ -65,7 +66,7 @@ namespace MegaDesk_Montoya
             Drawers.Text = AddQuote.userDrawers.ToString();
             Material.Text = AddQuote.userMaterial.ToString();
             RushDays.Text = AddQuote.userRushOrderDays.ToString();
-            InvoiceNumber.Text = AddQuote.userInvoiceNum.ToString();
+            UserDate.Text = AddQuote.userDate.ToString();
             Header.Text += AddQuote.userCustomerName.ToString();
             Notes.Text = AddQuote.userNotes.ToString();
 
@@ -75,6 +76,11 @@ namespace MegaDesk_Montoya
         }
 
         private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InvoiceNumber_Click(object sender, EventArgs e)
         {
 
         }

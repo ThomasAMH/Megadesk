@@ -46,7 +46,7 @@
             this.DepthTextbox = new System.Windows.Forms.TextBox();
             this.MaterialCombobox = new System.Windows.Forms.ComboBox();
             this.BillToNameTextbox = new System.Windows.Forms.TextBox();
-            this.InvoiceNumTextbox = new System.Windows.Forms.TextBox();
+            this.DateTextBox = new System.Windows.Forms.TextBox();
             this.NotesTextbox = new System.Windows.Forms.TextBox();
             this.RushOrderDaysCombobox = new System.Windows.Forms.ComboBox();
             this.Subtotal = new System.Windows.Forms.Label();
@@ -159,9 +159,9 @@
             this.InvoiceNumberLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InvoiceNumberLabel.Location = new System.Drawing.Point(376, 134);
             this.InvoiceNumberLabel.Name = "InvoiceNumberLabel";
-            this.InvoiceNumberLabel.Size = new System.Drawing.Size(171, 23);
+            this.InvoiceNumberLabel.Size = new System.Drawing.Size(62, 23);
             this.InvoiceNumberLabel.TabIndex = 12;
-            this.InvoiceNumberLabel.Text = "Invoice Number:";
+            this.InvoiceNumberLabel.Text = "Date:";
             // 
             // DiplayQuoteButton
             // 
@@ -235,13 +235,13 @@
             this.BillToNameTextbox.Size = new System.Drawing.Size(211, 30);
             this.BillToNameTextbox.TabIndex = 22;
             // 
-            // InvoiceNumTextbox
+            // DateTextBox
             // 
-            this.InvoiceNumTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InvoiceNumTextbox.Location = new System.Drawing.Point(550, 130);
-            this.InvoiceNumTextbox.Name = "InvoiceNumTextbox";
-            this.InvoiceNumTextbox.Size = new System.Drawing.Size(211, 30);
-            this.InvoiceNumTextbox.TabIndex = 23;
+            this.DateTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DateTextBox.Location = new System.Drawing.Point(550, 130);
+            this.DateTextBox.Name = "DateTextBox";
+            this.DateTextBox.Size = new System.Drawing.Size(211, 30);
+            this.DateTextBox.TabIndex = 23;
             // 
             // NotesTextbox
             // 
@@ -308,7 +308,7 @@
             this.Controls.Add(this.Subtotal);
             this.Controls.Add(this.RushOrderDaysCombobox);
             this.Controls.Add(this.NotesTextbox);
-            this.Controls.Add(this.InvoiceNumTextbox);
+            this.Controls.Add(this.DateTextBox);
             this.Controls.Add(this.BillToNameTextbox);
             this.Controls.Add(this.MaterialCombobox);
             this.Controls.Add(this.DepthTextbox);
@@ -353,7 +353,7 @@
         private System.Windows.Forms.TextBox DepthTextbox;
         private System.Windows.Forms.ComboBox MaterialCombobox;
         private System.Windows.Forms.TextBox BillToNameTextbox;
-        private System.Windows.Forms.TextBox InvoiceNumTextbox;
+        private System.Windows.Forms.TextBox DateTextBox;
         private System.Windows.Forms.TextBox NotesTextbox;
         private System.Windows.Forms.ComboBox RushOrderDaysCombobox;
         private System.Windows.Forms.BindingSource validatorBindingSource;
