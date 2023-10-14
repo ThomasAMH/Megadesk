@@ -46,8 +46,8 @@ namespace MegaDesk_Montoya
                 {
                  //display quote
 
-                    //string custName = LoadedQuotes.Quotes[i].customerName.ToString();
-                    //DateTime quoteDate = LoadedQuotes.Quotes[i].quoteDate......
+                    string custName = LoadedQuotes.Quotes[i].customerName;
+                    string quoteDate = LoadedQuotes.Quotes[i].invoiceDate.ToString();
                     double deskWidth = LoadedQuotes.Quotes[i].quoteDesk.deskWidth;
                     double deskDepth = LoadedQuotes.Quotes[i].quoteDesk.deskDepth;
                     int deskDrawerCount = LoadedQuotes.Quotes[i].quoteDesk.deskDrawerCount;
@@ -57,8 +57,8 @@ namespace MegaDesk_Montoya
                     //set found to true so the none found won't display
                     foundMatch = true;
 
-                    MessageBox.Show("Customer Name: " + "\n"
-                        + "Order Date of Quote:" + "\n"
+                    MessageBox.Show("Customer Name: " + custName + "\n"
+                        + "Order Date of Quote:" + quoteDate + "\n"
                         + "Width: " + deskWidth + "\n"
                         + "Depth: " + deskDepth + "\n"
                         + "Number of Drawers: " + deskDrawerCount + "\n"
