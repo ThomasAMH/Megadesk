@@ -47,6 +47,7 @@ namespace MegaDesk_Montoya
             preparedDeskQuote.rushOrderDays = AddQuote.userRushOrderDays;
             preparedDeskQuote.quoteAmount = AddQuote.price;
 
+            //
             //LoadedQuotes.Quotes.Add(preparedDeskQuote);
             FileHandler.WriteQuoteToFile(preparedDeskQuote);
             MainMenu mainMenuView = new MainMenu();

@@ -39,7 +39,7 @@
             // 
             this.ReturnButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReturnButton.Location = new System.Drawing.Point(487, 324);
-            this.ReturnButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ReturnButton.Margin = new System.Windows.Forms.Padding(2);
             this.ReturnButton.Name = "ReturnButton";
             this.ReturnButton.Size = new System.Drawing.Size(104, 32);
             this.ReturnButton.TabIndex = 1;
@@ -75,6 +75,7 @@
             this.searchButton.TabIndex = 4;
             this.searchButton.Text = "&Search";
             this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // SearchQuotes
             // 
@@ -86,7 +87,7 @@
             this.Controls.Add(this.materialSearchCB);
             this.Controls.Add(this.ReturnButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SearchQuotes";
             this.Text = "Search for a Quote";
             this.ResumeLayout(false);
