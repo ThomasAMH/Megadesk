@@ -34,23 +34,30 @@ namespace MegaDesk_Montoya
         {
             //get selected material
             MaterialType mType = (MaterialType) materialSearchCB.SelectedIndex;
-            Console.WriteLine(mType);
-
-            //get quote list (LoadedQuotes)
-
 
             //loop through quotes
+            
             for (int i = 0; i < LoadedQuotes.Quotes.Count; i++)
-            { //find by material
-                if (LoadedQuotes.Quotes[i].quoteDesk.material == mType) {
+            { 
+                //find by material
+                if (LoadedQuotes.Quotes[i].quoteDesk.material == mType)
+                {
+                    //save quote
                     Console.WriteLine("Found it! :)");
-                    Console.WriteLine(LoadedQuotes.Quotes[i].quoteDesk.material.ToString());
+                    Console.WriteLine(LoadedQuotes.Quotes[i]);
+
+                   
+                    //string custName = LoadedQuotes.Quotes[i].customerName.ToString();
+                    string material = LoadedQuotes.Quotes[i].quoteDesk.material.ToString();
+                    decimal price = (decimal)LoadedQuotes.Quotes[i].quoteAmount;
+
+                    MessageBox.Show("Material: " + material + "\n" + "Total Price: $" + price);
+
                 }
+                
             }
 
-            //store found in array
-
-            //display array in a new page(Customer Name, quote date, desk specs, overall price)
+            //display in a new page(Customer Name, quote date, desk specs, overall price)
 
         }
     }
