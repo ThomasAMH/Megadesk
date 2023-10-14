@@ -42,9 +42,9 @@ namespace MegaDesk_Montoya
                 //find by material
                 if (LoadedQuotes.Quotes[i].quoteDesk.material == mType)
                 {
-                    //save quote
-                    Console.WriteLine("Found it! :)");
-                    Console.WriteLine(LoadedQuotes.Quotes[i]);
+                    //display quote
+                    //Console.WriteLine("Found it! :)");
+                    //Console.WriteLine(LoadedQuotes.Quotes[i]);
 
                    
                     //string custName = LoadedQuotes.Quotes[i].customerName.ToString();
@@ -57,7 +57,7 @@ namespace MegaDesk_Montoya
                 
             }
 
-            //display in a new page(Customer Name, quote date, desk specs, overall price)
+           //if no matches display a message box
 
         }
     }
