@@ -13,7 +13,7 @@ namespace MegaDesk_Montoya
         private static string directoryString = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
         private static string quotesPath = directoryString + "\\Megadesk\\data\\quotes.json";
         private static string pricesPath= directoryString + "\\Megadesk\\data\\rushOrderPrices.txt";
-
+        
         public static void WriteQuoteToFile(DeskQuote quoteToWrite) 
         {
             var readQuotes = GetQuotes() ?? new List<DeskQuote>();

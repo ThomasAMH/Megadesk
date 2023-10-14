@@ -43,7 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 23);
+            this.label1.Location = new System.Drawing.Point(14, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(333, 68);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Handwriting", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(351, 49);
+            this.label2.Location = new System.Drawing.Point(395, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(309, 40);
             this.label2.TabIndex = 1;
@@ -64,9 +64,10 @@
             this.AddQuoteButton.BackColor = System.Drawing.SystemColors.ControlLight;
             this.AddQuoteButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AddQuoteButton.Font = new System.Drawing.Font("Lucida Sans", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddQuoteButton.Location = new System.Drawing.Point(24, 114);
+            this.AddQuoteButton.Location = new System.Drawing.Point(27, 142);
+            this.AddQuoteButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.AddQuoteButton.Name = "AddQuoteButton";
-            this.AddQuoteButton.Size = new System.Drawing.Size(321, 59);
+            this.AddQuoteButton.Size = new System.Drawing.Size(361, 74);
             this.AddQuoteButton.TabIndex = 2;
             this.AddQuoteButton.Text = "Add a Quote";
             this.AddQuoteButton.UseVisualStyleBackColor = false;
@@ -77,9 +78,10 @@
             this.ViewAllQuotesButton.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ViewAllQuotesButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ViewAllQuotesButton.Font = new System.Drawing.Font("Lucida Sans", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ViewAllQuotesButton.Location = new System.Drawing.Point(24, 179);
+            this.ViewAllQuotesButton.Location = new System.Drawing.Point(27, 224);
+            this.ViewAllQuotesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ViewAllQuotesButton.Name = "ViewAllQuotesButton";
-            this.ViewAllQuotesButton.Size = new System.Drawing.Size(321, 59);
+            this.ViewAllQuotesButton.Size = new System.Drawing.Size(361, 74);
             this.ViewAllQuotesButton.TabIndex = 3;
             this.ViewAllQuotesButton.Text = "View All Quotes";
             this.ViewAllQuotesButton.UseVisualStyleBackColor = false;
@@ -90,9 +92,10 @@
             this.SearchQuotesButton.BackColor = System.Drawing.SystemColors.ControlLight;
             this.SearchQuotesButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SearchQuotesButton.Font = new System.Drawing.Font("Lucida Sans", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SearchQuotesButton.Location = new System.Drawing.Point(24, 244);
+            this.SearchQuotesButton.Location = new System.Drawing.Point(27, 305);
+            this.SearchQuotesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.SearchQuotesButton.Name = "SearchQuotesButton";
-            this.SearchQuotesButton.Size = new System.Drawing.Size(321, 59);
+            this.SearchQuotesButton.Size = new System.Drawing.Size(361, 74);
             this.SearchQuotesButton.TabIndex = 4;
             this.SearchQuotesButton.Text = "Search Quotes";
             this.SearchQuotesButton.UseVisualStyleBackColor = false;
@@ -101,9 +104,10 @@
             // mainExitButton
             // 
             this.mainExitButton.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainExitButton.Location = new System.Drawing.Point(24, 374);
+            this.mainExitButton.Location = new System.Drawing.Point(27, 468);
+            this.mainExitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mainExitButton.Name = "mainExitButton";
-            this.mainExitButton.Size = new System.Drawing.Size(321, 37);
+            this.mainExitButton.Size = new System.Drawing.Size(361, 46);
             this.mainExitButton.TabIndex = 6;
             this.mainExitButton.Text = "Exit Program";
             this.mainExitButton.UseVisualStyleBackColor = true;
@@ -112,18 +116,19 @@
             // deskImage
             // 
             this.deskImage.Image = ((System.Drawing.Image)(resources.GetObject("deskImage.Image")));
-            this.deskImage.Location = new System.Drawing.Point(404, 129);
+            this.deskImage.Location = new System.Drawing.Point(454, 161);
+            this.deskImage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.deskImage.Name = "deskImage";
-            this.deskImage.Padding = new System.Windows.Forms.Padding(50);
-            this.deskImage.Size = new System.Drawing.Size(358, 273);
+            this.deskImage.Padding = new System.Windows.Forms.Padding(56, 62, 56, 62);
+            this.deskImage.Size = new System.Drawing.Size(403, 341);
             this.deskImage.TabIndex = 7;
             this.deskImage.TabStop = false;
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.deskImage);
             this.Controls.Add(this.mainExitButton);
             this.Controls.Add(this.SearchQuotesButton);
@@ -132,10 +137,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainMenu";
             this.Text = "MegaDesk - Home";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainMenu_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.deskImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

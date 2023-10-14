@@ -33,3 +33,20 @@ C:\Users\LINFU\Source\Repos\Megadesk\obj\Debug\MegaDesk.csproj.CoreCompileInputs
 C:\Users\LINFU\Source\Repos\Megadesk\obj\Debug\MegaDesk.csproj.CopyComplete
 C:\Users\LINFU\Source\Repos\Megadesk\obj\Debug\MegaDesk-Montoya.exe
 C:\Users\LINFU\Source\Repos\Megadesk\obj\Debug\MegaDesk-Montoya.pdb
+C:\C# .NET\MegaDesk\bin\Debug\MegaDesk-Montoya.exe.config
+C:\C# .NET\MegaDesk\bin\Debug\MegaDesk-Montoya.exe
+C:\C# .NET\MegaDesk\bin\Debug\MegaDesk-Montoya.pdb
+C:\C# .NET\MegaDesk\bin\Debug\Newtonsoft.Json.dll
+C:\C# .NET\MegaDesk\bin\Debug\Newtonsoft.Json.xml
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk.csproj.AssemblyReference.cache
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk_Montoya.AddQuote.resources
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk_Montoya.DisplayQuote.resources
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk_Montoya.ViewAllQuotes.resources
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk_Montoya.MainMenu.resources
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk_Montoya.Properties.Resources.resources
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk_Montoya.SearchQuotes.resources
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk.csproj.GenerateResource.cache
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk.csproj.CoreCompileInputs.cache
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk.csproj.CopyComplete
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk-Montoya.exe
+C:\C# .NET\MegaDesk\obj\Debug\MegaDesk-Montoya.pdb

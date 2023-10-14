@@ -59,9 +59,10 @@
             // 
             this.ReturnButton.AutoSize = true;
             this.ReturnButton.Font = new System.Drawing.Font("Lucida Sans", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReturnButton.Location = new System.Drawing.Point(622, 381);
+            this.ReturnButton.Location = new System.Drawing.Point(700, 476);
+            this.ReturnButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ReturnButton.Name = "ReturnButton";
-            this.ReturnButton.Size = new System.Drawing.Size(139, 39);
+            this.ReturnButton.Size = new System.Drawing.Size(156, 49);
             this.ReturnButton.TabIndex = 2;
             this.ReturnButton.Text = "Back To Home";
             this.ReturnButton.UseVisualStyleBackColor = true;
@@ -71,8 +72,8 @@
             // 
             this.HeightLabel.AutoSize = true;
             this.HeightLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeightLabel.Location = new System.Drawing.Point(8, 100);
-            this.HeightLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.HeightLabel.Location = new System.Drawing.Point(9, 125);
+            this.HeightLabel.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(120, 23);
             this.HeightLabel.TabIndex = 3;
@@ -82,7 +83,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Sans", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 27);
+            this.label3.Location = new System.Drawing.Point(8, 34);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(341, 48);
             this.label3.TabIndex = 5;
@@ -92,8 +93,8 @@
             // 
             this.WidthLabel.AutoSize = true;
             this.WidthLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WidthLabel.Location = new System.Drawing.Point(8, 130);
-            this.WidthLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.WidthLabel.Location = new System.Drawing.Point(9, 162);
+            this.WidthLabel.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.WidthLabel.Name = "WidthLabel";
             this.WidthLabel.Size = new System.Drawing.Size(110, 23);
             this.WidthLabel.TabIndex = 6;
@@ -103,8 +104,8 @@
             // 
             this.DepthLabel.AutoSize = true;
             this.DepthLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DepthLabel.Location = new System.Drawing.Point(8, 160);
-            this.DepthLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.DepthLabel.Location = new System.Drawing.Point(9, 200);
+            this.DepthLabel.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.DepthLabel.Name = "DepthLabel";
             this.DepthLabel.Size = new System.Drawing.Size(114, 23);
             this.DepthLabel.TabIndex = 7;
@@ -114,7 +115,7 @@
             // 
             this.BillToNameLabel.AutoSize = true;
             this.BillToNameLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillToNameLabel.Location = new System.Drawing.Point(376, 100);
+            this.BillToNameLabel.Location = new System.Drawing.Point(423, 125);
             this.BillToNameLabel.Name = "BillToNameLabel";
             this.BillToNameLabel.Size = new System.Drawing.Size(138, 23);
             this.BillToNameLabel.TabIndex = 8;
@@ -124,8 +125,8 @@
             // 
             this.DrawersLabel.AutoSize = true;
             this.DrawersLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DrawersLabel.Location = new System.Drawing.Point(8, 190);
-            this.DrawersLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.DrawersLabel.Location = new System.Drawing.Point(9, 238);
+            this.DrawersLabel.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.DrawersLabel.Name = "DrawersLabel";
             this.DrawersLabel.Size = new System.Drawing.Size(95, 23);
             this.DrawersLabel.TabIndex = 9;
@@ -135,8 +136,8 @@
             // 
             this.MaterialLabel.AutoSize = true;
             this.MaterialLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaterialLabel.Location = new System.Drawing.Point(8, 222);
-            this.MaterialLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.MaterialLabel.Location = new System.Drawing.Point(9, 278);
+            this.MaterialLabel.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.MaterialLabel.Name = "MaterialLabel";
             this.MaterialLabel.Size = new System.Drawing.Size(89, 23);
             this.MaterialLabel.TabIndex = 10;
@@ -146,8 +147,8 @@
             // 
             this.RushOrderLabel.AutoSize = true;
             this.RushOrderLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RushOrderLabel.Location = new System.Drawing.Point(8, 253);
-            this.RushOrderLabel.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.RushOrderLabel.Location = new System.Drawing.Point(9, 316);
+            this.RushOrderLabel.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.RushOrderLabel.Name = "RushOrderLabel";
             this.RushOrderLabel.Size = new System.Drawing.Size(185, 23);
             this.RushOrderLabel.TabIndex = 11;
@@ -157,7 +158,7 @@
             // 
             this.InvoiceNumberLabel.AutoSize = true;
             this.InvoiceNumberLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InvoiceNumberLabel.Location = new System.Drawing.Point(376, 134);
+            this.InvoiceNumberLabel.Location = new System.Drawing.Point(423, 168);
             this.InvoiceNumberLabel.Name = "InvoiceNumberLabel";
             this.InvoiceNumberLabel.Size = new System.Drawing.Size(62, 23);
             this.InvoiceNumberLabel.TabIndex = 12;
@@ -166,9 +167,10 @@
             // DiplayQuoteButton
             // 
             this.DiplayQuoteButton.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DiplayQuoteButton.Location = new System.Drawing.Point(579, 336);
+            this.DiplayQuoteButton.Location = new System.Drawing.Point(651, 420);
+            this.DiplayQuoteButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DiplayQuoteButton.Name = "DiplayQuoteButton";
-            this.DiplayQuoteButton.Size = new System.Drawing.Size(182, 39);
+            this.DiplayQuoteButton.Size = new System.Drawing.Size(205, 49);
             this.DiplayQuoteButton.TabIndex = 13;
             this.DiplayQuoteButton.Text = "Display Quote";
             this.DiplayQuoteButton.UseVisualStyleBackColor = true;
@@ -179,7 +181,7 @@
             // 
             this.NotesLabel.AutoSize = true;
             this.NotesLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NotesLabel.Location = new System.Drawing.Point(376, 168);
+            this.NotesLabel.Location = new System.Drawing.Point(423, 210);
             this.NotesLabel.Name = "NotesLabel";
             this.NotesLabel.Size = new System.Drawing.Size(73, 23);
             this.NotesLabel.TabIndex = 14;
@@ -188,26 +190,29 @@
             // HeightTextBox
             // 
             this.HeightTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeightTextBox.Location = new System.Drawing.Point(128, 100);
+            this.HeightTextBox.Location = new System.Drawing.Point(144, 125);
+            this.HeightTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.HeightTextBox.Name = "HeightTextBox";
-            this.HeightTextBox.Size = new System.Drawing.Size(93, 30);
+            this.HeightTextBox.Size = new System.Drawing.Size(104, 30);
             this.HeightTextBox.TabIndex = 15;
             // 
             // WidthTextbox
             // 
             this.WidthTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WidthTextbox.Location = new System.Drawing.Point(128, 130);
+            this.WidthTextbox.Location = new System.Drawing.Point(144, 162);
+            this.WidthTextbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.WidthTextbox.Name = "WidthTextbox";
-            this.WidthTextbox.Size = new System.Drawing.Size(93, 30);
+            this.WidthTextbox.Size = new System.Drawing.Size(104, 30);
             this.WidthTextbox.TabIndex = 16;
             this.WidthTextbox.Validating += new System.ComponentModel.CancelEventHandler(this.validateWidth);
             // 
             // DepthTextbox
             // 
             this.DepthTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DepthTextbox.Location = new System.Drawing.Point(128, 160);
+            this.DepthTextbox.Location = new System.Drawing.Point(144, 200);
+            this.DepthTextbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DepthTextbox.Name = "DepthTextbox";
-            this.DepthTextbox.Size = new System.Drawing.Size(93, 30);
+            this.DepthTextbox.Size = new System.Drawing.Size(104, 30);
             this.DepthTextbox.TabIndex = 17;
             this.DepthTextbox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.DepthTextbox_KeyUp);
             // 
@@ -222,34 +227,38 @@
             "Pine",
             "Oak",
             "Rosewood"});
-            this.MaterialCombobox.Location = new System.Drawing.Point(128, 220);
+            this.MaterialCombobox.Location = new System.Drawing.Point(144, 275);
+            this.MaterialCombobox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaterialCombobox.Name = "MaterialCombobox";
-            this.MaterialCombobox.Size = new System.Drawing.Size(211, 30);
+            this.MaterialCombobox.Size = new System.Drawing.Size(237, 30);
             this.MaterialCombobox.TabIndex = 21;
             // 
             // BillToNameTextbox
             // 
             this.BillToNameTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillToNameTextbox.Location = new System.Drawing.Point(550, 100);
+            this.BillToNameTextbox.Location = new System.Drawing.Point(619, 125);
+            this.BillToNameTextbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BillToNameTextbox.Name = "BillToNameTextbox";
-            this.BillToNameTextbox.Size = new System.Drawing.Size(211, 30);
+            this.BillToNameTextbox.Size = new System.Drawing.Size(237, 30);
             this.BillToNameTextbox.TabIndex = 22;
             // 
             // DateTextBox
             // 
             this.DateTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DateTextBox.Location = new System.Drawing.Point(550, 130);
+            this.DateTextBox.Location = new System.Drawing.Point(619, 162);
+            this.DateTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DateTextBox.Name = "DateTextBox";
-            this.DateTextBox.Size = new System.Drawing.Size(211, 30);
+            this.DateTextBox.Size = new System.Drawing.Size(237, 30);
             this.DateTextBox.TabIndex = 23;
             // 
             // NotesTextbox
             // 
             this.NotesTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NotesTextbox.Location = new System.Drawing.Point(380, 194);
+            this.NotesTextbox.Location = new System.Drawing.Point(428, 242);
+            this.NotesTextbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NotesTextbox.Multiline = true;
             this.NotesTextbox.Name = "NotesTextbox";
-            this.NotesTextbox.Size = new System.Drawing.Size(381, 89);
+            this.NotesTextbox.Size = new System.Drawing.Size(428, 110);
             this.NotesTextbox.TabIndex = 24;
             // 
             // RushOrderDaysCombobox
@@ -262,16 +271,17 @@
             "3",
             "5",
             "7"});
-            this.RushOrderDaysCombobox.Location = new System.Drawing.Point(199, 256);
+            this.RushOrderDaysCombobox.Location = new System.Drawing.Point(224, 320);
+            this.RushOrderDaysCombobox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RushOrderDaysCombobox.Name = "RushOrderDaysCombobox";
-            this.RushOrderDaysCombobox.Size = new System.Drawing.Size(76, 30);
+            this.RushOrderDaysCombobox.Size = new System.Drawing.Size(85, 30);
             this.RushOrderDaysCombobox.TabIndex = 25;
             // 
             // Subtotal
             // 
             this.Subtotal.AutoSize = true;
             this.Subtotal.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Subtotal.Location = new System.Drawing.Point(480, 300);
+            this.Subtotal.Location = new System.Drawing.Point(540, 375);
             this.Subtotal.Name = "Subtotal";
             this.Subtotal.Size = new System.Drawing.Size(0, 23);
             this.Subtotal.TabIndex = 27;
@@ -290,9 +300,10 @@
             "5",
             "6",
             "7"});
-            this.DrawersCombobox.Location = new System.Drawing.Point(128, 190);
+            this.DrawersCombobox.Location = new System.Drawing.Point(144, 238);
+            this.DrawersCombobox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DrawersCombobox.Name = "DrawersCombobox";
-            this.DrawersCombobox.Size = new System.Drawing.Size(65, 30);
+            this.DrawersCombobox.Size = new System.Drawing.Size(73, 30);
             this.DrawersCombobox.TabIndex = 28;
             // 
             // validatorBindingSource
@@ -301,9 +312,9 @@
             // 
             // AddQuote
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.DrawersCombobox);
             this.Controls.Add(this.Subtotal);
             this.Controls.Add(this.RushOrderDaysCombobox);
@@ -326,8 +337,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.HeightLabel);
             this.Controls.Add(this.ReturnButton);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddQuote";
             this.Text = "Create A Quote";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddQuote_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.validatorBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

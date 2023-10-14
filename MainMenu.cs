@@ -44,5 +44,10 @@ namespace MegaDesk_Montoya
         {
             Application.Exit();
         }
+
+        private void MainMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
